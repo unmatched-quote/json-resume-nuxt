@@ -1,4 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { viteSingleFile } from 'vite-plugin-singlefile';
+import  vuetify  from 'vite-plugin-vuetify';
+import vue from '@vitejs/plugin-vue';
+
 export default defineNuxtConfig({
     //@ts-ignore
     app: {
@@ -24,5 +28,8 @@ export default defineNuxtConfig({
             styles: true,
             autoImport: true,
         }
+    },
+    vite: {
+        plugins: [viteSingleFile(), vuetify()],
     }
 });

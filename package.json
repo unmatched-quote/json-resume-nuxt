@@ -6,14 +6,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "ghpages": "rm .output/public/ -rf && rm docs/ -rf && npm run generate && mkdir docs/ && cp -r .output/public/* docs/"
   },
   "devDependencies": {
     "@invictus.codes/nuxt-vuetify": "^0.2.20",
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18",
-    "nuxt": "^3.6.1"
+    "gh-pages": "^5.0.0",
+    "nuxt": "^3.6.1",
+    "vite-plugin-singlefile": "^0.13.5"
   },
   "dependencies": {
     "@kurone-kito/jsonresume-types": "^0.3.7",
