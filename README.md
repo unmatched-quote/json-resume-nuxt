@@ -1,63 +1,16 @@
-# Nuxt 3 Minimal Starter
+# JSON Resume via Nuxt
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Render [JSONResume](https://jsonresume.org/) CV using Vuetify.js, Vue.js and Nuxt.js
 
-## Setup
+## Installation
 
-Make sure to install the dependencies:
+- Clone the repository
+- run `npm install`
+- `npm run dev` to start the server, follow the instructions in terminal
+- `npm run generate` to generate static content
 
-```bash
-# npm
-npm install
+Edit `static/resume.json` to provide your own JSON
 
-# pnpm
-pnpm install
+## Components
 
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Components are in `./components`, this is WIP so not everything is finished yet.
