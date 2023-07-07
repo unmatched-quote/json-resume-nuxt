@@ -6,7 +6,8 @@ import vue from '@vitejs/plugin-vue';
 export default defineNuxtConfig({
     //@ts-ignore
     app: {
-        baseURL: '/json-resume-nuxt/' // baseURL: '/<repository>/'
+        baseURL: '/json-resume-nuxt/', // baseURL: '/<repository>/'
+        buildAssetsDir: '/assets/'
     },
     devtools: {enabled: true},
     modules: [
