@@ -1,0 +1,309 @@
+{
+    "basics": {
+        "email": "nikola.bursac@proton.me",
+        "image": "https://media.licdn.com/dms/image/D4D03AQGhUJ3zXUk_Cg/profile-displayphoto-shrink_200_200/0/1686733904539?e=1693440000&v=beta&t=ygp0Gn7KDMiFDHWRzFofjveQjtCvZW1l-tff6YSHBAg",
+        "label": "Software Architect / Engineering Team Manager and Head of Software Development",
+        "titles": ["Fullstack Engineer", "Software Architect", "Team Lead"],
+        "location": {
+            "city": "Zagreb",
+            "country": "Croatia",
+            "countryCode": "HR",
+            "postalCode": "10000",
+            "timeZone": "Central European Time",
+            "timeZoneGMT": "GMT + 1"
+        },
+        "name": "Nikola Bursać",
+        "phone": "+385 91 555 4721",
+        "summary": "Highly skilled and results-driven Full Stack Engineer and Team Lead with DevOps knowledge with proven track record of building scalable PaaS products in the Cloud.",
+        "profiles": [
+            {
+                "network": "GitHub",
+                "icon": "mdi-github",
+                "username": "Nikola Bursać",
+                "url": "https://www.github.com/unmatched-quote"
+            },
+            {
+                "network": "StackOverflow",
+                "icon": "mdi-stack-overflow",
+                "username": "N.B.",
+                "url": "https://stackoverflow.com/users/693806/n-b"
+            }
+        ]
+    },
+    "education": [
+        {
+            "area": "Computer Science",
+            "endDate": "2006-02-01",
+            "institution": "Faculty of Electronics and Engineering",
+            "startDate": "2001-09-07"
+        }
+    ],
+    "languages": [
+        {
+            "fluency": "Native speaker",
+            "language": "English",
+            "level": "Native speaker"
+        },
+        {
+            "fluency": "Native speaker",
+            "language": "Croatian/Serbian"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Automation",
+            "keywords": [
+                "AI",
+                "Internet of Things (IoT)",
+                "Auto DevOps"
+            ]
+        },
+        {
+            "name": "Cryptography",
+            "keywords": [
+                "Asymmetric Encryption",
+                "Homomorphic Encryption",
+                "Cryptanalysis"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Implemented customer-story driven specification.",
+                "Created a relational data model.",
+                "Designed fraud detection primitives.",
+                "Conducted integration tests to match defined outcomes.",
+                "Implemented AutoDevOps to reduce errors due to human factors.",
+                "Established observability.",
+                "Enforced the philosophy of 'code as documentation' to drive implementation of GraphQL and OpenAPI schema tooling.",
+                "Oversaw deployment and builds for Kubernetes targets.",
+                "Mentored and onboarded backend and frontend teams."
+            ],
+            "name": "Claims Management System",
+            "startDate": "2022-01-01",
+            "summary": "Led implementation of customer-story driven specification to expose standalone insurance claims management system"
+        },
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Led the R&D team and discovered the necessary use case.",
+                "Led the UI/UX team.",
+                "Reduced the complexity of the application by introducing GraphQL, eliminating the need for stacks and languages outside of the JavaScript ecosystem.",
+                "Provided infrastructure configuration to avoid the need for SSR by innovatively using nginx and its regular-expression based routing rules to deliver statically generated pages.",
+                "Created a set of reusable Vue.js components using the Composition API (Vue 3) to expose reverse geocoding/map view capabilities."
+            ],
+            "name": "Underwriting Workbench",
+            "startDate": "2021-01-01",
+            "summary": "Configurable, alternate viewer of insurance policies allowing configurable views of policies and insurance products intended to ease policy administration for Underwriters"
+        },
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Collaborated with cross-functional teams to create an entire solution for insurance policy management, selling, and reporting.",
+                "Led backend development and implemented GraphQL, focusing on parallelization and performance.",
+                "Collaborated with cross-functional teams to implement multi-cloud deployment and backup.",
+                "Orchestrated the automation of in-browser tests using Cypress and the Amazon Device Farm service.",
+                "Served as the principal architect behind the observability platform suite used to monitor transactions, micro-service status, service status, and user experience, aiming for proactive support.",
+                "Led requirement gathering and vetting, ensuring successful project delivery and driving continuous improvement."
+            ],
+            "name": "OPAL Insurance Platform",
+            "startDate": "2019-01-01",
+            "summary": "Large-scale, multi-cloud insurance policy and claim management system"
+        },
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Developed an API to support SAML 2.0 and OpenID Connect Single Sign-On protocols.",
+                "Added support for the OAuth2 authorization protocol to the API.",
+                "Developed a pluggable authentication driver system to seamlessly integrate with existing systems based on LDAP or custom solutions, facilitating non-invasive augmentation of existing infrastructure.",
+                "Exposed a mechanism for adding multifactor authentication with support for HOTP/TOTP protocols (RFC 4226 and 6238), as well as Yubikey hardware tokens in OATH/Yubico/U2F modes.",
+                "Created a set of extensible UI components to enable per-client branding.",
+                "Developed an auxiliary tool called Authstack User Directory to enable multi-user sources and replace LDAP-based solutions.",
+                "Conducted client consultations to determine the required levels of SSO/MFA.",
+                "Established observability rules to detect potential breaches in conjunction with invalidation/alerting services."
+            ],
+            "name": "Authstack IAM",
+            "startDate": "2016-01-01",
+            "summary": "Authentication and Authorization suite featuring SAML 2.0, OpenID Connect and OAuth2 protocols with support for MultiFactor Authentication, for seamless and secure authentication across multiple applications."
+        },
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Designed the API and API versioning, supporting multiple programming languages.",
+                "Led the research behind the rating engine used with policies to facilitate a configurable system aimed at saving time while creating rules for rating policies.",
+                "Created the storage data model that supports versioning and data immutability to adhere to standards regarding insurance policy data retention and policy updates.",
+                "Designed a hybrid storage model to support multiple different insurance products within the same cloud environment.",
+                "Created, tested, and optimized the recording of financial transactions with persistence and reliability in mind.",
+                "Facilitated an enterprise service bus using ZeroMQ and background async/parallel processing using PHP, later superseded by Temporal workflow orchestration.",
+                "Created UI components intended to facilitate easy insurance policy product build and testing.",
+                "Developed testing processes and build procedures to enable AutoDevOps and a predictable delivery schedule."
+            ],
+            "name": "C2MS",
+            "startDate": "2008-01-01",
+            "summary": "Backbone of Insurance Platform as a Service product featuring full-set API for designing and managing insurance policy lifecycle, principal architect and hands-on manager."
+        },
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Introduced Gitlab and transitioned to a self-hosted Gitlab instance using physical servers to reduce the possibility of sensitive data leaks.",
+                "Introduced Gitlab CI/CD using Kubernetes runners.",
+                "Implemented BitWarden password manager at the organization level, using a self-hosted instance. BitWarden is used during onboarding/offboarding to provide new team members with necessary logins, avoiding the need to contact the support department.",
+                "Led the development of PDE - Programmer Development Environment, a set of services used by developers to create replicas of the production environment using containerization technologies.",
+                "Oversaw the development of PDE addons in the form of Bash/ZX scripts that bootstrap projects developers work on using PDE.",
+                "Introduced and implemented Sentry, Grafana, and Loki - the foundations of the observability platform.",
+                "Defined and developed onboarding/offboarding procedures and processes.",
+                "Introduced Satis: Simple static Composer repository generator, a repository for internally developed PHP libraries that follow PSR standards.",
+                "Introduced Verdaccio: a self-hosted internal NPM package manager.",
+                "Organized and maintained a private NPM for the company's development and deployment requirements.",
+                "Introduced Swagger (renamed to OpenAPI) and GraphQL to public APIs.",
+                "Implemented and organized internal Identity Access Management for the purpose of establishing a Security Center.",
+                "Introduced, practiced, and advocated agile methodologies at the organization level.",
+                "Created and maintained Confluence pages with Research & Development updates on tools/services/stacks being evaluated for use with the Insurance Platform."
+            ],
+            "name": "Internal tools and systems",
+            "startDate": "2008-01-01",
+            "summary": "Developed and curated a set of tools and procedures to drive change, improve delivery and optimize time-to-completion."
+        }
+    ],
+    "references": [
+        {
+            "reference": "Available upon request"
+        }
+    ],
+    "skills": [
+        {
+            "keywords": [
+                "PHP",
+                "JavaScript",
+                "TypeScript",
+                "SQL",
+                "Golang",
+                "Bash",
+                "C"
+            ],
+            "name": "Programming Languages"
+        },
+
+        {
+            "keywords": [
+                "Laravel",
+                "Symfony",
+                "Express.js"
+            ],
+            "name": "Frameworks"
+        },
+
+        {
+            "keywords": [
+                "Vue.js",
+                "Nuxt.js",
+                "Cypress",
+                "Storybook"
+            ],
+            "name": "Frontend"
+        },
+
+        {
+            "keywords": [
+                "AWS",
+                "GCP"
+            ],
+            "name": "Cloud Providers"
+        },
+
+        {
+            "keywords": [
+                "MySQL",
+                "Oracle HeatWave",
+                "Clickhouse"
+            ],
+            "name": "Database"
+        }
+    ],
+    "work": [
+        {
+            "name": "Buckhill Ltd.",
+            "summary": "Head of Software Development, driving development and delivery of multi-cloud InsurTech Platform As a Service product.",
+            "startDate": "2012-09-01",
+            "endDate": "2023-09-01",
+            "position": "Head of Software Development",
+            "highlights": [
+                "Built Backend, Frontend and AutoDevOps teams to manage ongoing InsurTech PaaS development and scaling.",
+                "Hands-on Team Lead, enforcing standards and completing designated sprints on schedule.",
+                "Established and led development of multi-language micro-service architecture.",
+                "Implemented Observability Center.",
+                "Planned and established design and coding principles.",
+                "Led AutoDevops implementation, reduced costs while increasing productivity due to automation and reduction in human-factor errors.",
+                "Created the CI/CD strategy behind automated tests and automated deployments.",
+                "Lead Developer and Product Designer behind IAM/MultiFactor Authentication Proxy solution, eliminating the possibility for hostile user account takeovers."
+            ]
+        },
+        {
+            "name": "Buckhill Ltd.",
+            "summary": "Drove company's early adoption of cloud-first approach and facilitated venture into InsurTech space.",
+            "startDate": "2009-01-15",
+            "endDate": "2012-09-01",
+            "position": "Senior Developer / Team Lead",
+            "highlights": [
+                "Principal Developer and Backend/Frontend Team Lead responsible for ongoing development of InsurTech Platform as a Service Multi-Cloud product.",
+                "Led Research and Development department, tasked with discovering and evaluating technologies with potential merit in InsurTech field."
+            ]
+        },
+        {
+            "name": "Business2Web Ltd.",
+            "summary": "E-commerce solutions developer and consultant.",
+            "startDate": "2007-03-01",
+            "endDate": "2009-01-15",
+            "position": "Senior Developer",
+            "highlights": [
+                "Early adoption of AWS Cloud, slashed server maintenance costs.",
+                "Developed and implemented E-Commerce solutions and processes according to design documents.",
+                "Led a team of developers developing secure payment solution"
+            ]
+        },
+        {
+            "name": "Progressive Technologies",
+            "summary": "Application development for a wide array of clients in diverse areas of business. Focused on E-Commerce and delivery automation.",
+            "startDate": "2004-06-20",
+            "endDate": "2006-12-25",
+            "position": "Lead Developer",
+            "highlights": [
+                "Hands-on Lead Developer, coordinating multiple teams of developers in E-Commerce area."
+            ]
+        },
+
+        {
+            "name": "Web Burza d.o.o.",
+            "summary": "Agency work related to various fields of E-Commerce and television.",
+            "startDate": "2003-04-15",
+            "endDate": "2004-06-19",
+            "position": "Developer",
+            "highlights": [
+                "Developed websites using in-house framework",
+                "Collaborated with designers to achieve visual consistency of products developed."
+            ]
+        },
+        {
+            "name": "PC Chip Computer Magazine",
+            "summary": "Web maintenance, in-house application developer.",
+            "startDate": "2002-02-06",
+            "endDate": "2003-04-15",
+            "position": "Application developer",
+            "highlights": [
+                "Designed and developed in-house application for creating magazine's monthly CD/DVD with shareware programs"
+            ]
+        },
+        {
+            "name": "HB-Team d.o.o.",
+            "summary": "Junior developer.",
+            "startDate": "2001-01-01",
+            "endDate": "2002-02-05",
+            "position": "Junior developer",
+            "highlights": [
+                "Computer hardware store inventory maintenance and online-inventory database administration"
+            ]
+        }
+    ]
+}
